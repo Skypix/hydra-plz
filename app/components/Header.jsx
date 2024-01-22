@@ -10,7 +10,7 @@ export function Header({header, isLoggedIn, cart}) {
   return (
     <header className="header">
       <NavLink prefetch="intent" to="/" style={activeLinkStyle} end>
-        <strong>{shop.name}</strong>
+        <img src="/images/hydra_text_black.svg" className='w-32' />
       </NavLink>
       <HeaderMenu
         menu={menu}
