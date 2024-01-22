@@ -13,6 +13,7 @@ export async function loader({context}) {
 }
 
 export default function Index() {
+  console.log("ahoj");
   const {collections} = useLoaderData();
   return (
     <section className="w-full gap-4">
