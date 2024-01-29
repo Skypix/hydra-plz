@@ -3,7 +3,7 @@ import {Image} from '@shopify/hydrogen';
 
 export function meta() {
   return [
-    {title: 'Hydra'},
+    {title: 'Hydra Supplements'},
     {description: 'Hydrogen storefront'},
   ];
 }
