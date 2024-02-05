@@ -277,6 +277,12 @@ const FOOTER_QUERY = `#graphql
   }
   ${MENU_FRAGMENT}
 `;
+export function meta() {
+  return [
+    { title: 'Hydra Supplements' },
+    { description: 'Hydrogen storefront' },
+  ];
+}
 
 /** @typedef {import('@shopify/remix-oxygen').LoaderFunctionArgs} LoaderFunctionArgs */
 /** @typedef {import('@remix-run/react').ShouldRevalidateFunction} ShouldRevalidateFunction */
