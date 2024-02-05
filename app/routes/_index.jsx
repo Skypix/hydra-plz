@@ -1,5 +1,6 @@
 import {useLoaderData, Link} from '@remix-run/react';
 import {Image} from '@shopify/hydrogen';
+import {LoginButton} from '~/components/LoginButton';
 
 export function meta() {
   return [
