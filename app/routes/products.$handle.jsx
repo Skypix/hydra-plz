@@ -1,4 +1,5 @@
-import {useLoaderData} from '@remix-run/react';
+
+;import {useLoaderData} from '@remix-run/react';
 import {json} from '@shopify/remix-oxygen';
 import ProductOptions from '~/components/ProductOptions';
 import {Image, Money, ShopPayButton} from '@shopify/hydrogen-react';

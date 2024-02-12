@@ -1,6 +1,7 @@
 import {Await, NavLink} from '@remix-run/react';
 import {Suspense} from 'react';
 import {useRootLoaderData} from '~/root';
+import {LoginButton} from '~/components/LoginButton';
 
 /**
  * @param {HeaderProps}
@@ -88,10 +89,6 @@ function HeaderCtas({isLoggedIn, cart}) {
   return (
     <nav className="header-ctas" role="navigation">
       <HeaderMenuMobileToggle />
-      <NavLink prefetch="intent" to="/account" style={activeLinkStyle}>
-        {isLoggedIn ? 'Account' : 'Sign in'}
-      </NavLink>
-      <SearchToggle />
       <CartToggle cart={cart} />
     </nav>
   );
@@ -103,10 +100,6 @@ function HeaderMenuMobileToggle() {
       <h3>☰</h3>
     </a>
   );
-}
-
-function SearchToggle() {
-  return <a href="#search-aside">Search</a>;
 }
 
 /**
