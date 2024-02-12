@@ -24,7 +24,7 @@ export function Footer({menu, shop}) {
 function FooterMenu() {
 
   return (
-    <div>
+    <div>   
         <p class="text-white">By Martin Siblik</p>
     </div>
   );
