@@ -6,7 +6,7 @@ import {useRootLoaderData} from '~/root';
  */
 export function Footer({menu, shop}) {
   return (
-    <footer className="footer">
+    <footer className="footer grid"> 
       {menu && shop?.primaryDomain?.url && (
         <FooterMenu/>
       )}
@@ -24,8 +24,13 @@ export function Footer({menu, shop}) {
 function FooterMenu() {
 
   return (
-    <div>   
-        <p class="text-white">By Martin Siblik</p>
+    <div className='
+    justify-self-center self-center grid justify-center content-center'>   
+    <div className='flex flex-nowrap items-center justify-center bg-white cursor-pointer'>
+      <img src="images/icon-ig.svg" onClick={() => {window.open("https://www.instagram.com/hydra_athletes/?img_index=1",'_blank')}} />
+      
+    </div>
+      
     </div>
   );
 }
