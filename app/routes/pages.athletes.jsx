@@ -36,7 +36,7 @@ export default function Athletes(){
             
             <div className="grid justify-center items-center">
             
-                <img src="/images/DSC00880.png"/>
+                <img src="/images/DSC00880.png" alt="kk"/>
 
             </div>
             <div className="grid justify-center items-center">
