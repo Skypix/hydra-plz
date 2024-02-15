@@ -41,6 +41,9 @@ export function HeaderMenu({menu, primaryDomainUrl, viewport}) {
     }
   }
 
+  console.log(menu.items.id);
+  console.log(FALLBACK_HEADER_MENU);
+
   return (
     <nav className={className} role="navigation">
       {viewport === 'mobile' && (
@@ -53,8 +56,7 @@ export function HeaderMenu({menu, primaryDomainUrl, viewport}) {
         >
           Home
         </NavLink>
-      )}
-      {(menu || FALLBACK_HEADER_MENU).items.map((item) => {
+      )}      {(menu || FALLBACK_HEADER_MENU).items.map((item) => {
         if (!item.url) return null;
 
         
@@ -153,6 +155,24 @@ const FALLBACK_HEADER_MENU = {
       title: 'Policies',
       type: 'HTTP',
       url: '/policies',
+      items: [],
+    },
+    {
+      id: 'gid://shopify/MenuItem/119063052554',
+      resourceId: "gid://shopify/Page/119063052554",
+      tags: [],
+      title: 'Policies',
+      type: 'PAGE',
+      url: '/pages/policies',
+      items: [],
+    },
+    {
+      id: 'gid://shopify/MenuItem/119063019786',
+      resourceId: "gid://shopify/Page/119063019786",
+      tags: [],
+      title: 'Athletes',
+      type: 'PAGE',
+      url: 'pages/athletes',
       items: [],
     },
     {
