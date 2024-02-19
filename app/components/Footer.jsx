@@ -18,17 +18,20 @@ export function Footer({menu, shop}) {
                 <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Hydra</span>
               </Link>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+               <li> 
+                
+                  <Link to={"/pages/catalog"} className="hover:underline me-4 md:me-6">Catalog</Link> 
+                  
+                </li>
+                
                 <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">Catalog</a>
+                  <Link to={"/pages/policies"} className="hover:underline me-4 md:me-6">Policies</Link>
                 </li>
                 <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">Policies</a>
+                  <Link to={"/pages/athletes"} className="hover:underline me-4 md:me-6">Athletes</Link>
                 </li>
                 <li>
-                    <a href="#" className="hover:underline me-4 md:me-6">Athletes</a>
-                </li>
-                <li>
-                    <a href="#" className="hover:underline">Contact</a>
+                  <Link to={"/pages/contact"} className="hover:underline me-4 md:me-6">Contact</Link> 
                 </li>
             </ul>
         </div>
