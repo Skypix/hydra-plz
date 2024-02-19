@@ -2,9 +2,7 @@ export default function Athletes() {
     return (
       <div class="grid grid-cols-1 md:grid-cols-2 gap-1">
         <div class="grid gap-2">
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/DSC00923.png" alt="" />
-          </div>
+        
           <div>
             <img class="h-auto max-w-full rounded-lg" src="/images/DSC00640.png" alt="" />
           </div>
