@@ -22,7 +22,6 @@ export function Footer({menu, shop}) {
                     <a href="#" class="hover:underline me-4 md:me-6">Catalog</a>
                 </li>
                 <li>
-                  Ahpj
                     <a href="#" class="hover:underline me-4 md:me-6">Policies</a>
                 </li>
                 <li>

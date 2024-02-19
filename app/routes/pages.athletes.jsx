@@ -11,9 +11,7 @@ export default function Athletes() {
           <div>
             <img class="h-auto max-w-full rounded-lg" src="/images/DSC00648.png" alt="" />
           </div>
-          <div>
-            <img class="h-auto max-w-full rounded-lg" src="/images/DSC00882.png" alt="" />
-          </div>
+         
           
         </div>
         <div class="grid gap-2">
