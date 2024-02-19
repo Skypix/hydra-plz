@@ -8,6 +8,12 @@
   --color-light: #fff;
 }
 
+body{
+
+  background-color: #EFEFEF;
+
+}
+
 img {
   border-radius: 4px;
 }
@@ -129,7 +135,7 @@ aside li {
 */
 .header {
   align-items: center;
-  background: #fff;
+  background: #EFEFEF;
   display: flex;
   height: var(--header-height);
   padding: 0 1rem;
