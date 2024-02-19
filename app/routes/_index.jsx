@@ -46,10 +46,11 @@ function FeaturedCollection({collection}) {
       to={`/collections/caps`}
     >
         <div className="featured-collection-image">
-          <img src='/images/banner-caps.jpg'/>
+          <img src='/images/bannercaps.jpg'/>
         </div>
-      <h1>{collection.title}</h1>
+
     </Link>
+    
   );
 }
 
