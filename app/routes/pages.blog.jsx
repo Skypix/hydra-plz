@@ -6,7 +6,7 @@ export default function Blog() {
                 <h1 className="text-4xl font-bold md:tracki md:text-5xl">Boosting Performance and Muscle Growth</h1>
                 <div className="flex flex-col items-start justify-between w-full md:flex-row md:items-center dark:text-gray-400">
                     <div className="flex items-center md:space-x-2">
-                        <img src="https://source.unsplash.com/75x75/?portrait" alt="" className="w-4 h-4 border rounded-full dark:bg-gray-500 dark:border-gray-700" />
+                       
                         <p className="text-sm">Martin Siblík • 21.2.2024</p>
                     </div>
                     <p className="flex-shrink-0 mt-3 text-sm md:mt-0">2 min read </p>
