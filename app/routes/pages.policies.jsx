@@ -24,7 +24,7 @@ export default function Policies() {
                     Users should follow the recommended dosage and usage guidelines provided on the product packaging. Consultation with a healthcare professional is advised before starting any new supplement regimen.
                   </p>
                 </div>
-                {/* Add more sections as needed */}
+        
               </div>
             </div>
           </div>
@@ -51,12 +51,12 @@ export default function Policies() {
                     Hydrasupps is committed to protecting customer privacy. Personal information provided during the purchase process is handled securely and in accordance with applicable data protection laws.
                   </p>
                 </div>
-                {/* Add more sections as needed */}
+              
               </div>
             </div>
           </div>
         </section>
-        {/* Add more sections as needed */}
+       
       </>
     );
   }
