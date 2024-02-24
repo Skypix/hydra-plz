@@ -436,7 +436,7 @@ interface GeneratedQueryTypes {
     return: CollectionDetailsQuery;
     variables: CollectionDetailsQueryVariables;
   };
-  '#graphql\n  query FeaturedCollections {\n    collections(first: 3) {\n      nodes {\n        id\n        title\n        handle\n        image {\n          altText\n          width\n          height\n          url\n        }\n      }\n    }\n  }\n': {
+  '#graphql\n  query FeaturedCollections {\n    collections(first: 4) {\n      nodes {\n        id\n        title\n        handle\n        image {\n          altText\n          width\n          height\n          url\n        }\n      }\n    }\n  }\n': {
     return: FeaturedCollectionsQuery;
     variables: FeaturedCollectionsQueryVariables;
   };

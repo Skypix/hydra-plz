@@ -17,11 +17,11 @@ export default function CollectionsAll() {
   console.log("ahoj");
   const {collections} = useLoaderData();
   return (
-    <section className="w-full gap-4">
+    <section className="w-full gap-2">
       <h2 className="whitespace-pre-wrap max-w-prose font-bold text-lead">
         Collections
       </h2>
-      <div className="grid-flow-row grid gap-2 gap-y-6 md:gap-4 lg:gap-6 grid-cols-1 sm:grid-cols-3">
+      <div className="grid-flow-row grid gap-2 gap-y-6 md:gap-4 lg:gap-6 grid-cols-1 sm:grid-cols-4">
         {collections.nodes.map((collection) => {
           return (
             <Link to={`/collections/${collection.handle}`} key={collection.id}>
@@ -49,7 +49,7 @@ export default function CollectionsAll() {
 
 const COLLECTIONS_QUERY = `#graphql
   query FeaturedCollections {
-    collections(first: 3) {
+    collections(first: 4) {
       nodes {
         id
         title

@@ -28,8 +28,7 @@ export async function loader({params, context, request}) {
     throw new Response(null, {status: 404});
   }
 
-  // json is a Remix utility for creating application/json responses
-  // https://remix.run/docs/en/v1/utils/json
+
   return json({
     collection,
   });
