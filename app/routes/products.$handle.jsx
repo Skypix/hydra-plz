@@ -22,7 +22,7 @@ const seo = ({data}) => ({
     const searchParams = new URL(request.url).searchParams;
     const selectedOptions = [];
   
-    // set selected options from the query string
+    
     searchParams.forEach((value, name) => {
       selectedOptions.push({name, value});
     });

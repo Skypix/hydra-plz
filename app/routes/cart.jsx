@@ -2,8 +2,7 @@ import {CartForm} from '@shopify/hydrogen';
 import {json} from '@shopify/remix-oxygen';
 
 export async function action({request, context}) {
-  // The Skeleton template already has a cart handler which is passed
-  // to the loader and action context.
+  
   const {cart} = context;
 
   const formData = await request.formData();
@@ -29,10 +28,10 @@ export async function action({request, context}) {
     case CartForm.ACTIONS.DiscountCodesUpdate: {
       const formDiscountCode = inputs.discountCode;
 
-      // User inputted discount code
+      
       const discountCodes = formDiscountCode ? [formDiscountCode] : [];
 
-      // Combine discount codes already applied on cart
+     
       discountCodes.push(...inputs.discountCodes);
 
       result = await cart.updateDiscountCodes(discountCodes);

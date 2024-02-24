@@ -26,8 +26,7 @@ export default function ProductOptions({options, selectedVariant}) {
     return defaultParams;
   })();
 
-  // Update the in-flight request data from the 'navigation' (if available)
-  // to create an optimistic UI that selects a link before the request is completed
+ 
   const searchParams = navigation.location
     ? new URLSearchParams(navigation.location.search)
     : paramsWithDefaults;
@@ -40,7 +39,7 @@ export default function ProductOptions({options, selectedVariant}) {
           return;
         }
 
-        // get the currently selected option value
+     
         const currentOptionVal = searchParams.get(option.name);
         return (
           <div
