@@ -40,8 +40,7 @@ export function HeaderMenu({menu, primaryDomainUrl, viewport}) {
     }
   }
 
-  console.log(menu.items.id);
-  console.log(FALLBACK_HEADER_MENU);
+ 
 
   return (
     <nav className={className} role="navigation">
